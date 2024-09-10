@@ -27,7 +27,7 @@ Also can be represented using *Hertz* (Hz), which is notation for 1/seconds
 	- Evaluate whatever the programmer may like to have as vertex output data, such as a normal and texture coordinates
 - We start by describing how the vertex position is computed, a set of coordinates that is always required.
 - Originally a model resides in *model space*, which means it has not been transformed at all.
-- Each model can be associated with a *model transform* to be positioned and oriented. This allows several copies (*instances*) of the same model to have difference transforms, without requiring replication of the basic geometry.
+- Each model can be associated with a *model transform* to be positioned and oriented. This allows several copies (*instances*) of the same model to have different transforms, without requiring replication of the basic geometry.
 - Vertices and the normals are what are transformed by the model transform. The coordinates of an object are called *model coordinates*.
 - After model transform has been applied, the model is said to be located in *world coordinates* or *world space*.
 - To facilitate projecting and clipping, the camera and all models are transformed with the *view transform*. 
