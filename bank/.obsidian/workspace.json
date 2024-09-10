@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Real-Time Rendering Chapter 2.md",
+                "file": "Real-Time Rendering/Chapter 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Real-Time Rendering Chapter 2.md",
+                "file": "Real-Time Rendering/Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Real-Time Rendering Chapter 2.md",
+                "file": "Real-Time Rendering/Chapter 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Real-Time Rendering Chapter 2.md"
+                "file": "Real-Time Rendering/Chapter 2.md"
               }
             }
           }
@@ -148,10 +148,15 @@
   },
   "active": "c34b89f32ed2b2a2",
   "lastOpenFiles": [
+    "Real-Time Rendering/Images/Pasted image 20240910004512.png",
+    "Real-Time Rendering/Images/Pasted image 20240910002703.png",
+    "Real-Time Rendering/Images/Pasted image 20240910001514.png",
+    "Real-Time Rendering/Images",
+    "Real-Time Rendering",
     "Frustum.md",
-    "Real-Time Rendering Chapter 2.md",
-    "Pasted image 20240909223334.png",
-    "Pasted image 20240909220902.png",
+    "Real-Time Rendering/Chapter 2.md",
+    "Real-Time Rendering/Images/Pasted image 20240909223334.png",
+    "Real-Time Rendering/Images/Pasted image 20240909220902.png",
     "Welcome.md"
   ]
 }
