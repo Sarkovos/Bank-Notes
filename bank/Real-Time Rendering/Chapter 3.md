@@ -34,4 +34,25 @@
 - A warp/wavefront is scheduled for execution by some number GPU cores, anywhere from 8 to 64, using SIMD-processing. 
 - Each thread is mapped to a *SIMD Lane*
 
+-  Example: Say we have two thousand threads to be executed.
+	- Warps on NVIDIA GPUs contain 32 threads
+	- This yields 2000/32 = 62.5 warps, which is 63 warps with one being half empty
+	- The shader program is executed in lock-step on all 32 processors
+	- When a memory fetch is encountered, all threads encounter it at the same time, because the same instruction is executed for all
+	- The fetch signals that this warp of threads will stall, all waiting for their (different) results
+	- Instead of stalling, the warp is swapped out for a different warp of 32 threads, which is then executed by the 32 cores
+	- This swapping is just as fast as with the single processor system, since no data within each thread is touched when a warp is swapped
+	- Each thread has its own registers, and each warp keeps track of which instruction it is executing
+	- Swapping in a new warp is just a matter of pointing the set of cores at a different set of threads to execute, no other overhead.
+- In this example, the latency of a memory fetch for a texture can cause a warp to swap out. In practice, they can swap out for shorter delays since the cost of swapping is so low.
+- This technique of warp swapping is the major latency-hiding mechanism used by all GPUs.
+
+
+- The shader program's structure is an imporant characteristic that influences efficiency. A major factor is the amount of register use for each thread.
+- In our example, we assume that two thousand threads can all be resident on the GPU at one time. The more registers needed by the shader program associated with each thread, the fewer threads, and thus the fewer warps, can be resident in the GPU
+- A shortage of warps can mean that a stall cannot be mitigated by swapping.
+- Warps that are resident are said to be "in flight", and this number is called the *occupancy*
+- High occupancy means that there are many warps available for processing, so that idle processors are less likely. Low occupancy leads to poor performance
+- Frequency of memory fetches also affects how much latency hiding is needed.
+
 
