@@ -56,3 +56,17 @@
 - Frequency of memory fetches also affects how much latency hiding is needed.
 
 
+- Warps (In summary):
+	- Each pixel shader invocation is a *thread*
+	- Threads that use the same shader program are bundled into *warps*
+	- Each warp has a number of core dedicated to it, NVIDIA cores have 32
+	- A shader program runs on a warp until a memory fetch is encountered. All threads encounter it, since they all are running the same instruction
+	- A stall is signaled, so the warp is replaced, which is then executed by the 32 cores.
+	- Number of warps active is called the *occupancy*
+	- Dynamic branching, caused by if statements and loops. If even one thread takes a different route, the warp must execute both branches, throwing away results it does't need. This is called *thread divergence*
+
+
+## Notes From Future Directions for Compute-for-Graphics
+- Brute force implementation is not fast enough, we have to work smarter to optimize rendering
+- Complex algorithms and data structures are impractical to express
+- 
