@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25fcb14ed2ad94e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Real-Time Rendering/Chapter 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7728833f60e7dda9",
             "type": "leaf",
             "state": {
@@ -37,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra.md",
+                "file": "Real-Time Rendering/Linear Algebra.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra.md",
+                "file": "Real-Time Rendering/Linear Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra.md",
+                "file": "Real-Time Rendering/Linear Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra.md"
+                "file": "Real-Time Rendering/Linear Algebra.md"
               }
             }
           }
@@ -174,7 +162,7 @@
   "active": "2deb577fb241d49a",
   "lastOpenFiles": [
     "Real-Time Rendering/Chapter 4.md",
-    "Linear Algebra.md",
+    "Real-Time Rendering/Linear Algebra.md",
     "Real-Time Rendering/Chapter 3.md",
     "Real-Time Rendering/Chapter 2.md",
     "Real-Time Rendering/Images/Pasted image 20240910004512.png",
