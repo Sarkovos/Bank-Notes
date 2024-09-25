@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Real-Time Rendering/Linear Algebra.md",
+                "file": "Real-Time Rendering/Chapter 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fa6dc2f5a4747ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "441/441 Chapter 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89e1f01e119a686f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "441/441 Study Material.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Real-Time Rendering/Linear Algebra.md",
+                "file": "441/441 Study Material.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Real-Time Rendering/Linear Algebra.md",
+                "file": "441/441 Study Material.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Real-Time Rendering/Linear Algebra.md"
+                "file": "441/441 Study Material.md"
               }
             }
           }
@@ -159,11 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2deb577fb241d49a",
+  "active": "89e1f01e119a686f",
   "lastOpenFiles": [
+    "Pasted image 20240924235446.png",
+    "441/441 Chapter 2.md",
+    "441/441 Study Material.md",
     "Real-Time Rendering/Chapter 4.md",
     "Real-Time Rendering/Linear Algebra.md",
+    "441/441 images",
+    "441/441 images/Pasted image 20240919205842.png",
     "Real-Time Rendering/Chapter 3.md",
+    "441",
     "Real-Time Rendering/Chapter 2.md",
     "Real-Time Rendering/Images/Pasted image 20240910004512.png",
     "Real-Time Rendering/Images/Pasted image 20240910002703.png",

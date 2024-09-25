@@ -1,0 +1,23 @@
+- *What is a domain-specific language?*
+	- (Need to ask)
+- *What is the difference between a compiler and an interpreter?*
+	- An interpreter takes in an abstract-syntax tree and the program input, and evaluates and directly executes the program. There is no translation to object code involved in interpretation. Goes line by line and interprets on your own machine.
+	- In contrast, a compiler translates the abstract-syntax tree into another intermediate representation (ie assembly code). Makes an executable that you can run.
+	- Compiler has faster execution and you can compile it once and run it repeatedly.
+	- Interpreter has good run-time flexibility and direct source-level debugging
+- *What is a hybrid language?*
+	- A hybrid of compilation and interpretation
+- *What is the difference between declarative and imperative languages?*
+	- Declarative languages say *what* you want, imperative language is when you say *how* you get it
+- *What is the difference between statement-oriented and expression-oriented languages?*
+	- (Need to ask)
+- *Explain the difference between context-sensitive and context-free grammars
+	- (somewhat understand, need clarification)
+- *Explain the difference between leftmost and rightmost derivation*
+	- A derivation is a sequence of applications of the production rules of a grammar beginning with the start symbol and ending with a sentence (string of all terminals arranged according to the rules of the grammar)
+	- A derivation is *rightmost* if the rightmost non-terminal is always replaced first in each step.
+	- A derivation is *leftmost* if the leftmost non-terminal is always replaced first in each step
+	- ![[Pasted image 20240924235446.png]]'
+- *How can we demonstrate a grammar is ambiguous?*
+	- A grammar is ambiguous if there exists a sentence that can be parsed in more than one way. Thus, a grammar is ambiguous if we can construct more than one parse tree for the same sentence.
+- 
