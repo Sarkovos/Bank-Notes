@@ -25,6 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Real-Time Rendering/Chapter 3.md",
                 "mode": "source",
                 "source": false
@@ -50,13 +51,20 @@
               "type": "markdown",
               "state": {
                 "file": "441/441 Study Material.md",
+=======
+                "file": "Real-Time Rendering/Chapter 2.md",
+>>>>>>> 3492f02a40c9717f895ff13def044a30f00ac9ee
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
+<<<<<<< HEAD
         "currentTab": 3
+=======
+        "currentTab": 1
+>>>>>>> 3492f02a40c9717f895ff13def044a30f00ac9ee
       }
     ],
     "direction": "vertical"
@@ -122,7 +130,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "441/441 Study Material.md",
+=======
+                "file": "Real-Time Rendering/Chapter 4.md",
+>>>>>>> 3492f02a40c9717f895ff13def044a30f00ac9ee
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "441/441 Study Material.md",
+=======
+                "file": "Real-Time Rendering/Chapter 4.md",
+>>>>>>> 3492f02a40c9717f895ff13def044a30f00ac9ee
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +178,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "441/441 Study Material.md"
+=======
+                "file": "Real-Time Rendering/Chapter 4.md"
+>>>>>>> 3492f02a40c9717f895ff13def044a30f00ac9ee
               }
             }
           }
@@ -183,6 +203,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "89e1f01e119a686f",
   "lastOpenFiles": [
     "Pasted image 20240924235446.png",
@@ -194,7 +215,16 @@
     "441/441 images/Pasted image 20240919205842.png",
     "Real-Time Rendering/Chapter 3.md",
     "441",
+=======
+  "active": "7728833f60e7dda9",
+  "lastOpenFiles": [
+    "Real-Time Rendering/Linear Algebra.md",
+    "Real-Time Rendering/Chapter 4.md",
+>>>>>>> 3492f02a40c9717f895ff13def044a30f00ac9ee
     "Real-Time Rendering/Chapter 2.md",
+    "Real-Time Rendering/Chapter 3.md",
+    "AI/Untitled.md",
+    "AI",
     "Real-Time Rendering/Images/Pasted image 20240910004512.png",
     "Real-Time Rendering/Images/Pasted image 20240910002703.png",
     "Real-Time Rendering/Images/Pasted image 20240910001514.png",

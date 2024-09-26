@@ -22,6 +22,7 @@ $a\mathbf{u} = \left( \begin{array}{c} au_0 \\ au_1 \\ \vdots \\ au_{n - 1} \end
 - $\phi$: Smallest angle between $\mathbf{u}$ and $\mathbf{v}$
 - If the dot product of U and V is 0, U and V are orthogonal (perpendicular)
 
+<<<<<<< HEAD
 - *Basis*: $\hat{i}$ and $\hat{j}$ are the basis vectors of the xy coordinate system. $\hat{i}$ being $[1,0]$ and $\hat{j}$ being $[0,1]$ The full definition is a set of linearly independent vectors that span the full space.
 - *Linear Combination*: With vectors $\mathbf{v}$ and scalars $a$, then the *linear combination* of those vectors with those scalars as coefficients is:
 	- $a_1\mathbf{v}_1 + a_2\mathbf{v}_2 + a_3\mathbf{v}_3 + \ldots + a_n\mathbf{v}_n$
@@ -38,6 +39,8 @@ $a\mathbf{u} = \left( \begin{array}{c} au_0 \\ au_1 \\ \vdots \\ au_{n - 1} \end
 	- $\left[ \begin{array}{cc} 1 && 1 \\ 0 && 1 \end{array} \right]$$\left[ \begin{array}{cc} 0 && -1 \\ 1 && 0 \end{array} \right] = \left[ \begin{array}{cc} 1 && -1 \\ 1 && 0 \end{array} \right]$
 	- First matrix is a shear, second matrix is a rotation, and the last matrix is the composition. We apply the transforms from right to left. In this case it would be rotation, and then a shear
 
+=======
+>>>>>>> 3492f02a40c9717f895ff13def044a30f00ac9ee
 
 
 
