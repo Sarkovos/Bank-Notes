@@ -20,4 +20,3 @@
 	- ![[Pasted image 20240924235446.png]]'
 - *How can we demonstrate a grammar is ambiguous?*
 	- A grammar is ambiguous if there exists a sentence that can be parsed in more than one way. Thus, a grammar is ambiguous if we can construct more than one parse tree for the same sentence.
-- 
