@@ -1,5 +1,40 @@
+## Definitions
+- Scanner (or lexical analyzer, or lexer)
+	- program that culls the lexical units from a program, validates them as lexemes, and returns a list of tokens
+- Parser
+	- Using a grammar and a string, produces a parse tree 
+- Lexemes
+	- Valid lexical units of a program (e.g. +, main, int, x, etc)
+- Scanning (or lexical analysis)
+	- Process  of determining if a string is lexically valid, if all of the lexical units of the string are lexemes
+- Parse tree
+	- A tree whose root is the start symbol of the grammar, non-leaf vertices are non-terminals, and leaves are terminals, where the structure of the tree represents the conformity of the sentence to the grammer
+- Abstract syntax tree
+	- The final result of the syntax analysis phase, it shows the actual contents of our program but leaves out unnecessary details. It only shows the structural or content-related details.
+- Content-sensitive grammar
+	- Production rules can take into account the ordering of the terminals around them
+- Static semantics
+	- Check at compile time
+- Dynamic semantics
+	- check at runtime
+- Regular expression
+	- Pattern represented as a string that denotes the strings of a language, a metalanguage.
+- Terminals
+	- lexemes that cant be broken down further
+- nonterminals
+	- can be broken down
+- Backus-Naur form (BNF)
+	- Metalanguage for defining grammars.
+- Extended Backus-Naur form (EBNF)
+	- Includes syntactic extensions. Anything done in BNF can be shown in EBNF, and vice versa
+- Top-Down parsing
+	- Start from the top, work down
+- Bottom up parsing (or shift reduce parsing)
+	- Start from the bottom, work up
+- 
+## Questions
 - *What is a domain-specific language?*
-	- (Need to ask)
+	- Language that is designed to solve one specific task
 - *What is the difference between a compiler and an interpreter?*
 	- An interpreter takes in an abstract-syntax tree and the program input, and evaluates and directly executes the program. There is no translation to object code involved in interpretation. Goes line by line and interprets on your own machine.
 	- In contrast, a compiler translates the abstract-syntax tree into another intermediate representation (ie assembly code). Makes an executable that you can run.
@@ -20,3 +55,7 @@
 	- ![[Pasted image 20240924235446.png]]'
 - *How can we demonstrate a grammar is ambiguous?*
 	- A grammar is ambiguous if there exists a sentence that can be parsed in more than one way. Thus, a grammar is ambiguous if we can construct more than one parse tree for the same sentence.
+- *Process For C++ code*
+	- source -> scanner (tokens)--> parser (syntax tree)--> semantic analyzer -> code generator -> linker -> .exe
+- *How is the precendence of operators established, and how does that manifest into a parse tree*
+
